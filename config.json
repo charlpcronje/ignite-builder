@@ -1,0 +1,30 @@
+{
+    "config": {
+        "github_repository_url": "https://github.com/yourusername/yourrepository.git"
+    },
+    "applications": [
+        {
+            "id": "app1",
+            "name": "Application One",
+            "description": "Description for Application One",
+            "root_path": "/path/to/app1",
+            "config_path": "/path/to/app1/config",
+            "output_path": "/path/to/app1/output",
+            "log_path": "/path/to/app1/log",
+            "github": "/path/to/app1/tmp",
+            "main_file": "/path/to/app1/main.py"
+        },
+        {
+            "id": "app2",
+            "name": "Application Two",
+            "description": "Description for Application Two",
+            "root_path": "/path/to/app2",
+            "config_path": "/path/to/app2/config",
+            "output_path": "/path/to/app2/output",
+            "log_path": "/path/to/app2/log",
+            "github": "/path/to/app2/tmp",
+            "main_file": "/path/to/app2/main.py"
+        }
+        // ... other applications ...
+    ]
+}
